@@ -21,6 +21,20 @@
 <meta name="revisit-after" content="7 days">
 <meta name="language" content="English">
 <title>RideGuru – India's Ride Comparison App</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="192x192" href="https://via.placeholder.com/192x192/E8441A/ffffff?text=RG">
+<link rel="apple-touch-icon" href="https://via.placeholder.com/192x192/E8441A/ffffff?text=RG">
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+      navigator.serviceWorker.register('sw.js').then(function(reg) {
+        console.log('ServiceWorker registered:', reg.scope);
+      }).catch(function(err) {
+        console.log('ServiceWorker registration failed:', err);
+      });
+    });
+  }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 <script>
   (function(){
