@@ -1,0 +1,86 @@
+{
+  "name": "RideGuru – India's Ride Comparison App",
+  "short_name": "RideGuru",
+  "description": "RideGuru – India's #1 Ride Comparison App. Compare Ola, Uber, Rapido, Bharat Taxi & 5 more ride apps instantly. Find the cheapest ride in seconds and save money on every trip.",
+  "start_url": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5F3EF",
+  "theme_color": "#E8441A",
+  "lang": "en",
+  "scope": "./",
+  "categories": ["travel", "utilities"],
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/72x72/E8441A/ffffff?text=RG",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/96x96/E8441A/ffffff?text=RG",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/128x128/E8441A/ffffff?text=RG",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/144x144/E8441A/ffffff?text=RG",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/152x152/E8441A/ffffff?text=RG",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/192x192/E8441A/ffffff?text=RG",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/384x384/E8441A/ffffff?text=RG",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/E8441A/ffffff?text=RG",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/390x844/E8441A/ffffff?text=RideGuru+Home",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "RideGuru Home Screen"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Compare Rides",
+      "short_name": "Compare",
+      "description": "Compare ride prices instantly",
+      "url": "./?action=compare",
+      "icons": [
+        {
+          "src": "https://via.placeholder.com/96x96/E8441A/ffffff?text=RG",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
